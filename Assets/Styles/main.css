@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9c9c9c;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+    margin-top: 100px;
+}
+
+h1 {
+    color: #ff652f;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: #e85a4f;
+    
+}
+a:visited {
+    color: #e98074;
+}
+a:active {}
+
+p, label {
+    color: #3f3f3f;
+    vertical-align: top;
+    margin-top: 0px;
+    padding: 0px;
+    line-height: 1.5em;
+}
+p.footer {
+    
+    color: #f3f3f3;
+    font-size: .8em;
+}
+
+input {
+    -webkit-appearance: none; 
+    appearance: none;
+}
+button, input, select, textarea {
+    font-family : inherit;
+    font-size   : 100%;
+  }
+input, select, textarea {
+    /* width: 100%; */
+}
+
+
+#headerRow {
+    height: 100px;
+    background-color: #eae7dc;
+    width: 100%;
+}
+
+.setMargins {
+    width: 960px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+header {
+    overflow: auto;
+    clear: both;
+    padding: 10px;
+    color: #333;
+}
+
+.container {
+    position: relative;
+}
+.tag {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: -40px;
+    height: 2em;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    background-color: #e98074;
+    padding-top: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+ }
+section {
+}
+
+#left {
+  line-height: 100px;
+  padding-left: 20px;
+  float: left;
+  height: 100px;
+  width: 33.3%;
+  color: #3f3f3f;
+  background: #272727;
+}
+
+#middle {
+  line-height: 100px;
+  float: left;
+  height: 100px;
+  width: 33.3%;
+  color: #3f3f3f;
+  /* background: #d8c3a5; */
+}
+
+#right {
+  line-height: 100px;
+  padding-right: 20px;
+  float: left;
+  height: 100px;
+  width: 33.3%;
+  color: #3f3f3f;
+  /* background: #d8c3a5; */
+  text-align: right;
+}
+
+#full {
+    padding: 50px 20px 50px 20px;
+    overflow: auto;
+    clear: both;
+    color: #fff;
+    background: #eae7dc;
+}
+
+footer {
+  border-top: 3px solid #ff652f;
+  padding: 20px;
+  clear: both;
+  background: #272727;
+  text-align: center;
+  /* TODO: v align bottom */
+}
